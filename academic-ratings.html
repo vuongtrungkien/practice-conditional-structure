@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Academic ratings</title>
+</head>
+<body>
+    <script>
+        let point1 = parseInt(prompt('nhập điểm một tiết '));
+        let point2 = parseInt(prompt('nhập điểm giữ kỳ '));
+        let point3 = parseInt(prompt('nhập điểm cuối kỳ '));
+        let result = (point1 + (point2 * 2) + (point3 * 3)) / 6;
+        if (result >= 8) {
+            alert('học lực giỏi');
+        } else if (result >= 6) {
+            alert('học lực khá');
+        } else {
+            alert('học lực yếu');
+        }
+    </script>
+</body>
+</html>
